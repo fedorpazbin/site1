@@ -1,0 +1,77 @@
+div{
+    border: 3px solid slateblue ;
+}
+
+.glava{
+    display: block;
+    width: 90vw;
+    margin: auto;
+}
+
+.docha{
+    display: block;
+    border: 3px solid rgb(90, 205, 107) ;
+    background-color: rgb(236, 221, 240);
+    /* max-height: 90vh; */
+
+    /* display: flex;  */
+    /* режим технологии Flexbox вывода на дисплей */ 
+    /* flex-direction: column;  */
+    /* направление оси потока в котором они выстраиваются */
+    /* flex-wrap: wrap; */
+    /* как обращаться с контейнером, как они переносятся */
+    /* justify-content: center; */
+    /* куда сдвигаются все элементы и какое расстояние между ними в потоке при сварачивании */
+    /* align-content: space-evenly; */
+    /*  */
+    /* технология Flexbox для адоптивной верстки, куда сдвигаются все элементы и какое расстояние между ними перпендикулярно потоку оси*/
+    
+/* 
+    display: grid;
+    grid-template-columns: 50% 100px 45%;
+    grid-template-rows: 10% 20vh 150px;
+  
+    column-gap: 100px;
+    row-gap: 150px; */
+
+    
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-template-rows: 5fr 3fr 1fr;
+  
+    column-gap: 10%;
+    row-gap: 15%;
+    
+}
+
+.d_docha{
+    /* position: relative; */
+    background-color: rgb(28, 10, 147);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

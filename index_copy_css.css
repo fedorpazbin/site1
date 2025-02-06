@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+div{
+    border: 3px solid slateblue ;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.body_main {
+    width: 70%; 
+    margin: auto;
+    padding: 70px 70px 70px 70px;
+    background-image: url(pictures_papka/ава.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex; 
+    /* режим технологии вывода на дисплей */ 
+    flex-direction:row; 
+    /* направление в котором они выстраиваются */
+    flex-wrap: wrap;
+    /* как обращаться с контейнером, как они переносятся */
+    justify-content: center;
+    /* куда сдвигаются все элементы при сварачивании */
+    align-content: space-evenly;
+    /*  */
+    /* технология Flexbox для адоптивной верстки */
+}
+
+.armia {
+    max-width: 300px;
+    min-width: 100px;
+    flex: auto;
+}
+
+.galery {
+    
+}
+
+.galery_list{
+    margin: auto;
+    /* выситраивает по центру */
+    list-style-type: none;
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    gap: 50px;
+    /* overflow: hidden; */
+
+
+
+}
+
+.galery_pick{
+    max-width: 350px;
+}
+
+.image{
+    width: 100%;
+}
+.knopkis{
+   position: absolute; 
+   top: 30px;
+   /* bottom: 1px; */
+   /* right: 100px; */
+   display: flex;
+}
+
+.knopka{
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    /* cursor: pointer; */
+    cursor: pointer;
+}
+
+.like{
+    width: 50px;
+    background-image: url(pictures_papka/Like.svg);
+    
+}
+    /* псевдо класс */
+.like:hover{ 
+    /* hover отвечает за наведение мыши */
+    background-image: url(pictures_papka/Like_active.svg);
+}
+
+.like:active{
+    /* active отвечает за нажэатие */
+    background-color:firebrick;
+}
+
+.vybor{
+    width: 50px;
+    background-image: url(pictures_papka/Choosen.svg);
+}
+/* #id_armii::after{
+    content: '🤣';
+} */
+
+#id_armii::before{
+    color:aliceblue;
+    content: 'ПРИВЕТ КАК ДЕЛА';
+}
+/* 
+.vybor::before{
+    content: '🤣';
+} */
+
+/* .vybor::after{
+    content: '🤣';
+} */
+
+/* #id_armii{
+    max-width: 20%;
+    
+} */
+
+
+
+
+
+
+

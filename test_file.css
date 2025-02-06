@@ -1,0 +1,49 @@
+div{
+    border: 3px solid slateblue ;
+}
+
+.glava{
+    display: block;
+    width: 90vw;
+    margin: auto;
+}
+
+.docha{
+    display: block;
+    border: 3px solid rgb(90, 205, 107) ;
+    background-color: rgb(236, 221, 240);
+
+}
+
+.d_docha{
+    position: relative;
+    background-color: rgb(28, 10, 147);
+
+}
+
+.son{
+    /* display: inline; */
+    /* position: static; */
+    /* position: relative; */
+    /* position: fixed; */
+    position: absolute;
+    top: 130px;
+    right: 100px;
+
+
+    width: 50%;
+    border: 3px solid rgb(162, 32, 9) ;
+    background-color: aqua;
+
+}
+
+.son1{
+    position: absolute;
+    background-color: brown;
+
+}
+
+.son2{
+    position: fixed;
+    background-color: blue;
+}
